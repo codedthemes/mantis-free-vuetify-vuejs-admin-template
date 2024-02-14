@@ -7,7 +7,7 @@ Mantis is a free Material UI admin dashboard template built with Vue. It is mean
 
 :star: :star: :star: Do not forget to star (Top right of this page) it if you like the theme :star: :star: :star:
 
-![IMG_8566.jpg](https://Mantisdashboard.io/imp-images/Mantis-github-free-vue-repo.jpg)
+![IMG_8566.jpg](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-VUE-REPO+-+Mantis.jpg)
 
 [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
