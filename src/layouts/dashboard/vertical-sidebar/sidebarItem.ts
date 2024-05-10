@@ -34,6 +34,11 @@ const sidebarItem: menu[] = [
     icon: DashboardOutlined,
     to: '/dashboard'
   },
+  {
+    title: 'Todos',
+    icon: DashboardOutlined,
+    to: '/todos'
+  },
   { header: 'Authentication' },
   {
     title: 'Login',

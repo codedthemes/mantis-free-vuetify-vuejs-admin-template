@@ -12,6 +12,11 @@ const MainRoutes = {
       component: () => import('@/views/dashboard/DefaultDashboard.vue')
     },
     {
+      name: 'Todos',
+      path: '/todos',
+      component: () => import('@/views/todos/TodosListPage.vue')
+    },
+    {
       name: 'Typography',
       path: '/typography',
       component: () => import('@/views/typography/TypographyPage.vue')
