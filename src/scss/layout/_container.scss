@@ -19,14 +19,12 @@ html {
     padding: 40px 0;
   }
 }
-.page-wrapper {
-  background: rgb(var(--v-theme-containerBg));
-}
 
 .cursor-pointer {
   cursor: pointer;
 }
 .page-wrapper {
+  background: rgb(var(--v-theme-containerBg));
   .v-container {
     &:first-child {
       min-height: calc(100vh - 139px);
@@ -80,26 +78,8 @@ $sizes: (
 .fixed-width {
   max-width: 1300px;
 }
-.h-100 {
-  height: 100%;
-}
-.w-100 {
-  width: 100%;
-}
-
-.h-100vh {
-  height: 100vh;
-}
-.gap-2 {
+.ga-2 {
   gap: 8px;
-}
-
-.gap-3 {
-  gap: 16px;
-}
-
-.gap-4 {
-  gap: 24px;
 }
 
 .text-white {
@@ -193,9 +173,6 @@ body {
   }
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
 .link {
   color: rgb(var(--v-theme-lightText));
   text-decoration: none;

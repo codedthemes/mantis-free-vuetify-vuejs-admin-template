@@ -16,17 +16,3 @@
     font-size: 0.875rem;
   }
 }
-
-.pwdInput {
-  position: relative;
-  .v-input__append {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .v-field__append-inner {
-    right: -10px;
-    position: absolute;
-  }
-}

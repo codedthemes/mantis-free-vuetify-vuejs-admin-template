@@ -11,11 +11,6 @@
 }
 
 .tabBtn {
-  .v-tab--selected {
-    .v-tab__slider {
-      opacity: 0;
-    }
-  }
   .v-btn--variant-outlined:not(.v-tab--selected) {
     border: none;
     color: rgb(var(--v-theme-lightText));
@@ -25,12 +20,6 @@
 .headerWithBtn {
   .v-card-item {
     padding: 14px;
-  }
-}
-
-.groupingAvatar {
-  .v-avatar {
-    cursor: pointer;
   }
 }
 
