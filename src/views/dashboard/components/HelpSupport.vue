@@ -1,5 +1,5 @@
 <template>
-  <v-card variant="outlined" class="withbg">
+  <v-card variant="outlined" class="bg-surface">
     <v-card-text>
       <div class="d-flex align-center justify-space-between">
         <div>

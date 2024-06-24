@@ -4,7 +4,7 @@ import App from './App.vue';
 import { router } from './router';
 import vuetify from './plugins/vuetify';
 import '@/scss/style.scss';
-import PerfectScrollbar from 'vue3-perfect-scrollbar';
+import { PerfectScrollbarPlugin } from 'vue3-perfect-scrollbar';
 import VueTablerIcons from 'vue-tabler-icons';
 import VueApexCharts from 'vue3-apexcharts';
 import Antd from 'ant-design-vue';
@@ -33,7 +33,7 @@ const i18n = createI18n({
 const app = createApp(App);
 fakeBackend();
 app.use(router);
-app.use(PerfectScrollbar);
+app.use(PerfectScrollbarPlugin);
 app.use(createPinia());
 app.use(VueTablerIcons);
 app.use(Antd);

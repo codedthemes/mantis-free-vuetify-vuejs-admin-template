@@ -42,7 +42,7 @@ const transaction = shallowRef([
             <component :is="history.icon" :style="{ fontSize: '16px' }" />
           </v-avatar>
         </template>
-        <div class="d-flex align-center justify-space-between w-100 gap-2">
+        <div class="d-flex align-center justify-space-between w-100 ga-2">
           <div>
             <h6 class="text-subtitle-1 mb-0">{{ history.title }}</h6>
             <span class="text-subtitle-2 text-lightText font-weight-regular">{{ history.subtitle }}</span>
