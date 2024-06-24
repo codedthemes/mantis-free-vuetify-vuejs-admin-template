@@ -53,9 +53,9 @@ function validate(values: any, { setErrors }: any) {
         color="primary"
         hide-details="auto"
         :type="show1 ? 'text' : 'password'"
-        class="pwdInput mt-2"
+        class="mt-2"
       >
-        <template v-slot:append>
+        <template v-slot:append-inner>
           <v-btn color="secondary" icon rounded variant="text">
             <EyeInvisibleOutlined :style="{ color: 'rgb(var(--v-theme-secondary))' }" v-if="show1 == false" @click="show1 = !show1" />
             <EyeOutlined :style="{ color: 'rgb(var(--v-theme-secondary))' }" v-if="show1 == true" @click="show1 = !show1" />

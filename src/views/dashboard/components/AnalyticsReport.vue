@@ -92,7 +92,7 @@ const reports = shallowRef([
   <UiTitleCard title="Analytics Report" class-name="px-0 rounded-md overflow-hidden">
     <v-list class="py-0" aria-busy="true" aria-label="Report list" border>
       <v-list-item :value="item.name" v-for="(item, i) in reports" :key="i">
-        <div class="d-inline-flex align-center justify-space-between w-100 gap-2">
+        <div class="d-inline-flex align-center justify-space-between w-100 ga-2">
           <h6 class="text-h6 mb-0">{{ item.name }}</h6>
           <h5 class="ml-auto text-h5 mb-0">{{ item.percent }}</h5>
         </div>

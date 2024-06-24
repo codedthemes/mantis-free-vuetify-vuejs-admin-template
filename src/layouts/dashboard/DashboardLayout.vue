@@ -13,7 +13,7 @@ import FooterPanel from './footer/FooterPanel.vue';
       <VerticalHeaderVue />
 
       <v-main class="page-wrapper">
-        <v-container>
+        <v-container fluid>
           <div>
             <!-- Loader start -->
             <LoaderWrapper />
@@ -21,7 +21,7 @@ import FooterPanel from './footer/FooterPanel.vue';
             <RouterView />
           </div>
         </v-container>
-        <v-container class="pt-0">
+        <v-container fluid class="pt-0">
           <div>
             <FooterPanel />
           </div>
