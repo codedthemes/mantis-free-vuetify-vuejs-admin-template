@@ -19,7 +19,6 @@ import '@fontsource/public-sans/700.css';
 //Mock Api data
 import { fakeBackend } from '@/utils/helpers/fake-backend';
 
-
 const app = createApp(App);
 fakeBackend();
 app.use(router);

@@ -13,7 +13,7 @@ const chartOptions1 = computed(() => {
         show: false
       }
     },
-    colors:['rgba(var(--v-theme-warning), var(--v-medium-opacity))'],
+    colors: ['rgba(var(--v-theme-warning), var(--v-medium-opacity))'],
     dataLabels: {
       enabled: false
     },

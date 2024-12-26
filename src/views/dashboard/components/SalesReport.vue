@@ -23,7 +23,7 @@ const chartOptions1 = computed(() => {
       }
     },
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-    colors:  ['rgba(var(--v-theme-warning), var(--v-high-opacity))', 'rgba(var(--v-theme-primary), var(--v-high-opacity))'],
+    colors: ['rgba(var(--v-theme-warning), var(--v-high-opacity))', 'rgba(var(--v-theme-primary), var(--v-high-opacity))'],
     stroke: {
       curve: 'smooth',
       width: 6,
