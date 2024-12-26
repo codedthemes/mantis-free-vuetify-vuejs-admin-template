@@ -1,11 +1,6 @@
 <script setup lang="ts">
 import { computed, shallowRef } from 'vue';
-import { useTheme } from 'vuetify';
-import { getLightBorder } from './UpdateColors';
 import UiTitleCard from '@/components/shared/UiTitleCard.vue';
-
-const theme = useTheme();
-const WarningColor = theme.current.value.colors.warning;
 
 const chartOptions1 = computed(() => {
   return {
@@ -18,7 +13,7 @@ const chartOptions1 = computed(() => {
         show: false
       }
     },
-    colors: [WarningColor],
+    colors:['rgba(var(--v-theme-warning), var(--v-medium-opacity))'],
     dataLabels: {
       enabled: false
     },
@@ -46,7 +41,7 @@ const chartOptions1 = computed(() => {
     },
     grid: {
       strokeDashArray: 4,
-      borderColor: getLightBorder.value
+      borderColor: 'rgba(var(--v-theme-borderLight), var(--v-high-opacity))'
     },
     tooltip: {
       fixed: {
