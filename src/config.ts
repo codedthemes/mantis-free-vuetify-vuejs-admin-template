@@ -8,7 +8,7 @@ export type ConfigProps = {
 const config: ConfigProps = {
   Sidebar_drawer: true,
   mini_sidebar: false,
-  actTheme: 'DefaultTheme',
+  actTheme: 'light',
   fontTheme: 'Public sans'
 };
 
