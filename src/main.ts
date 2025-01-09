@@ -19,17 +19,6 @@ import '@fontsource/public-sans/700.css';
 //Mock Api data
 import { fakeBackend } from '@/utils/helpers/fake-backend';
 
-//i18
-import { createI18n } from 'vue-i18n';
-import messages from '@/utils/locales/messages';
-
-const i18n = createI18n({
-  locale: 'en',
-  messages: messages,
-  silentTranslationWarn: true,
-  silentFallbackWarn: true
-});
-
 const app = createApp(App);
 fakeBackend();
 app.use(router);
@@ -37,6 +26,5 @@ app.use(PerfectScrollbarPlugin);
 app.use(createPinia());
 app.use(VueTablerIcons);
 app.use(Antd);
-app.use(i18n);
 app.use(VueApexCharts);
 app.use(vuetify).mount('#app');
