@@ -1,10 +1,5 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import { useTheme } from 'vuetify';
-import { getPrimary, getLightBorder, getSecondary } from './UpdateColors';
-
-const theme = useTheme();
-const WarningColor = theme.current.value.colors.warning;
 
 const chartOptions1 = computed(() => {
   return {
@@ -12,7 +7,7 @@ const chartOptions1 = computed(() => {
       type: 'bar',
       height: 360,
       fontFamily: `inherit`,
-      foreColor: getSecondary.value,
+      foreColor: 'rgba(var(--v-theme-secondary), var(--v-high-opacity))',
       offsetY: 20,
       toolbar: {
         show: false
@@ -28,7 +23,7 @@ const chartOptions1 = computed(() => {
       }
     },
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-    colors: [WarningColor, getPrimary.value],
+    colors: ['rgba(var(--v-theme-warning), var(--v-high-opacity))', 'rgba(var(--v-theme-primary), var(--v-high-opacity))'],
     stroke: {
       curve: 'smooth',
       width: 6,
@@ -46,7 +41,7 @@ const chartOptions1 = computed(() => {
       }
     },
     grid: {
-      borderColor: getLightBorder.value
+      borderColor: 'rgba(var(--v-theme-borderLight), var(--v-high-opacity))'
     },
     tooltip: {
       fixed: {

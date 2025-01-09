@@ -27,7 +27,7 @@ const chartOptions1 = computed(() => {
       }
     },
     labels: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
-    colors: InfoColor,
+    colors: [InfoColor],
     stroke: {
       curve: 'smooth'
     },

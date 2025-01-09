@@ -38,12 +38,12 @@ const sidebarItem: menu[] = [
   {
     title: 'Login',
     icon: LoginOutlined,
-    to: '/auth/login'
+    to: '/login1'
   },
   {
     title: 'Register',
     icon: ProfileOutlined,
-    to: '/auth/register'
+    to: '/register'
   },
   { header: 'Utilities' },
   {
