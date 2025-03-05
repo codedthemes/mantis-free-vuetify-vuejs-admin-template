@@ -29,6 +29,7 @@ Mantis has Ant Design principal on top of the Material UI React component librar
 - [Documentation](#documentation)
 - [Browser support](#browser-support)
 - [Technology Stack](#technology-stack)
+- [Mantis Figma UI Kit](#mantis-figma-ui-kit)
 - [Other Technologies](#other-technologies)
 - 💰[Save more with Big Bundle](#save-more-with-big-bundle)💰
 - [More Vue Dashboard Templates](#more-vue-dashboard-templates)
@@ -106,6 +107,16 @@ The [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contain
 - [Vuetify 3](https://vuetifyjs.com/)
 - Vite
 - Vue3
+
+## Mantis Figma UI Kit
+<div>
+  <a href="https://codedthemes.com/item/mantis-free-figma-ui-kit/">
+    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Mantis.png" width="450" alt="Figma Free">
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://codedthemes.com/item/mantis-figma-ui-kit/">
+    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Pro_Mantis.png" width="450" alt="Figma Pro">
+  </a>
+</div>
 
 ## Other Technologies 
 | Technology | Free | Pro |
