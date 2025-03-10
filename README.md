@@ -6,13 +6,11 @@
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/mantis-free-vuetify-vuejs-admin-template/)
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
 
-Mantis is a free Material admin dashboard template built with Vue. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
+Vutifiy Mantis is a free admin dashboard template built with Vue. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 ### Name Derived From Nature
 
-Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, Material UI and Ant Design (M-Ant-is).
-
-Mantis has Ant Design principal on top of the Material UI React component library.
+Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, vuetify and Ant Design (M-Ant-is).
 
 
 ✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
@@ -93,11 +91,12 @@ The [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contain
 | -                                                     | ✓ 6+ color Options           |
 | -                                                     | ✓ RTL                                                                                                                                                          |
 | -                                                     | ✓ JWT authentications                                                                                         |
-| -                                                     | ✓ [More components](https://Mantisdashboard.io/vue/dashboard/default)                                                                                     |
+| -                                                     | ✓ [More components](https://mantisdashboard.io/vue/advance/alert)                                                                                     |
+| ✓ [MIT License](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/master/LICENSE)                                           | ✓ [Pro License](https://codedthemes.com/item/mantis-vue-admin-template/) |
 
 ## Documentation
 
-[Mantis documentation](https://codedthemes.gitbook.io/Mantis/) helps you with installation, deployment, and troubleshooting.
+[Mantis documentation](https://codedthemes.gitbook.io/mantis-vuetify) helps you with installation, deployment, and troubleshooting.
 
 ## Browser support
 <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/chrome.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/edge.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/safari.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/firefox.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/opera.png" width="45" height="45" >
@@ -105,7 +104,7 @@ The [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contain
 ## Technology Stack
 
 - [Vuetify 3](https://vuetifyjs.com/)
-- Vite
+- [Vite](https://vite.dev/)
 - Vue3
 
 ## Mantis Figma UI Kit
