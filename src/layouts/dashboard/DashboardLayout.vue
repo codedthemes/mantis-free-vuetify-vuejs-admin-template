@@ -4,11 +4,14 @@ import LoaderWrapper from './LoaderWrapper.vue';
 import VerticalSidebarVue from './vertical-sidebar/VerticalSidebar.vue';
 import VerticalHeaderVue from './vertical-header/VerticalHeader.vue';
 import FooterPanel from './footer/FooterPanel.vue';
+import { useCustomizerStore } from '../../stores/customizer';
+
+const customizer = useCustomizerStore();
 </script>
 
 <template>
   <v-locale-provider>
-    <v-app :class="[]">
+    <v-app :class="[customizer.mini_sidebar ? 'mini-sidebar' : '']">
       <VerticalSidebarVue />
       <VerticalHeaderVue />
 
