@@ -1,4 +1,4 @@
-# Mantis Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Mantis%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://Mantisdashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# Mantis Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Mantis%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://Mantisdashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
@@ -61,10 +61,10 @@ yarn run start
 ## Download
 
 - Mantis Free 
-    - [Live Preview](https://Mantisdashboard.io/vue/free/) 
+    - [Live Preview](https://Mantisdashboard.com/vue/free/) 
     - [Download](https://github.com/codedthemes/Mantis-free-vue-admin-template)
 - Mantis Pro 
-    - [Live Preview](https://Mantisdashboard.io/vue) 
+    - [Live Preview](https://Mantisdashboard.com/vue) 
     - [Download](https://codedthemes.com/item/mantis-vue-admin-template/)
       
 ## Why Mantis? 
@@ -79,9 +79,9 @@ Mantis offers everything you need to create dashboards. We have included the fol
 - Easy Documentation Guide
 
 ## What's included in Premium Version?
-The [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Mantis Free](https://Mantisdashboard.io/vue/free/) | [Mantis](https://Mantisdashboard.io/vue) |
+| [Mantis Free](https://Mantisdashboard.com/vue/free/) | [Mantis](https://Mantisdashboard.com/vue) |
 | ----------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **9** Demo pages                                      | **45+** demo pages                                                                                                                                             |
 | -                                                     | ✓ Multi-language                                                                                                                                               |
@@ -91,7 +91,7 @@ The [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contain
 | -                                                     | ✓ 6+ color Options           |
 | -                                                     | ✓ RTL                                                                                                                                                          |
 | -                                                     | ✓ JWT authentications                                                                                         |
-| -                                                     | ✓ [More components](https://mantisdashboard.io/vue/advance/alert)                                                                                     |
+| -                                                     | ✓ [More components](https://mantisdashboard.com/vue/advance/alert)                                                                                     |
 | ✓ [MIT License](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/master/LICENSE)                                           | ✓ [Pro License](https://codedthemes.com/item/mantis-vue-admin-template/) |
 
 ## Documentation
@@ -132,7 +132,7 @@ The [Pro version](https://Mantisdashboard.io/vue) of Mantis vue template contain
 
 | Dashboard | FREE | PRO | 
 | ----- | ---- | ---- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.io/vue/free/) | [**Pro**](https://berrydashboard.io/vue/)</span>|
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.com/vue/free/) | [**Pro**](https://berrydashboard.com/vue/)</span>|
 
 
 ## Issues
