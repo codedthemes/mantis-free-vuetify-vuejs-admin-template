@@ -158,7 +158,7 @@ const breadcrumbs = ref([
         </v-col>
         <v-col cols="12">
           <UiParentCard title="Link">
-            <a href="/utils/typography" class="link-hover text-primary d-inline-block mb-3">mantisdashboard.io</a>
+            <a href="/utils/typography" class="link-hover text-primary d-inline-block mb-3">mantisdashboard.com</a>
             <v-breadcrumbs
               :items="['Size: 12px', 'Weight: Regular', 'Line Height: 20px']"
               class="text-h6 text-lightText mb-0 pa-0"

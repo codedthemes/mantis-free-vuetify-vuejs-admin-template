@@ -10,27 +10,27 @@ This page (folder) is a sneak peek into the premium features available in <b>ver
 
 ## Included in the Pro Version:
 
-[🚀 Dashboards](https://mantisdashboard.io/vue/dashboard/default) : Advanced dashboards with real-time insights and data visualizations for actionable metrics.
+[🚀 Dashboards](https://mantisdashboard.com/vue/dashboard/default) : Advanced dashboards with real-time insights and data visualizations for actionable metrics.
 
-[📦 Widgets](https://mantisdashboard.io/vue/widget/statistics) : A curated library of pre-built widgets for enhanced functionality and faster development.
+[📦 Widgets](https://mantisdashboard.com/vue/widget/statistics) : A curated library of pre-built widgets for enhanced functionality and faster development.
 
-[🔧 Components](https://mantisdashboard.io/vue/components/buttons) : A rich collection of reusable and customizable UI components.
+[🔧 Components](https://mantisdashboard.com/vue/components/buttons) : A rich collection of reusable and customizable UI components.
 
-[🚀 Advanced Components](https://mantisdashboard.io/vue/advance/snackbar) : Customizable and dynamic Snackbar components for delivering seamless notifications and user feedback in your application.
+[🚀 Advanced Components](https://mantisdashboard.com/vue/advance/snackbar) : Customizable and dynamic Snackbar components for delivering seamless notifications and user feedback in your application.
 
-[📝 Forms](https://mantisdashboard.io/vue/forms/formvalidation) : Dynamic and customizable forms with advanced validation features for a smooth user experience.
+[📝 Forms](https://mantisdashboard.com/vue/forms/formvalidation) : Dynamic and customizable forms with advanced validation features for a smooth user experience.
 
-[📊 Tables](https://mantisdashboard.io/vue/tables/tbl-basic) :  Simple and clean tables for displaying structured data effectively.
+[📊 Tables](https://mantisdashboard.com/vue/tables/tbl-basic) :  Simple and clean tables for displaying structured data effectively.
 
-[📈 Charts](https://mantisdashboard.io/vue/forms/charts/apexchart) : Beautifully designed charts powered by modern data visualization libraries.
+[📈 Charts](https://mantisdashboard.com/vue/forms/charts/apexchart) : Beautifully designed charts powered by modern data visualization libraries.
 
-[🔒 Authentication](https://mantisdashboard.io/vue/register1) : Secure pages for login, registration, and password recovery, ensuring robust user management.
+[🔒 Authentication](https://mantisdashboard.com/vue/register1) : Secure pages for login, registration, and password recovery, ensuring robust user management.
 
-[🛒 E-commerce App](https://mantisdashboard.io/vue/ecommerce/products) : A streamlined system for managing products and inventory in your e-commerce platform.
+[🛒 E-commerce App](https://mantisdashboard.com/vue/ecommerce/products) : A streamlined system for managing products and inventory in your e-commerce platform.
 
-[💬 Chat Messages](https://mantisdashboard.io/vue/app/chats) : An integrated chat system to enhance communication within your application.
+[💬 Chat Messages](https://mantisdashboard.com/vue/app/chats) : An integrated chat system to enhance communication within your application.
 
-[👤 User Profile](https://mantisdashboard.io/vue/app/user/userprofile) : A sleek and customizable user profile page for managing user details and settings.
+[👤 User Profile](https://mantisdashboard.com/vue/app/user/userprofile) : A sleek and customizable user profile page for managing user details and settings.
 
 ## Why Upgrade to the Pro Version?
 
