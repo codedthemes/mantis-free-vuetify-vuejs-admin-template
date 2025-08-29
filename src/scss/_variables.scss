@@ -3,37 +3,74 @@
 @use 'sass:meta';
 @use 'vuetify/lib/styles/tools/functions' as *;
 
-// This will false all colors which is not necessory for theme
-$color-pack: false;
-
 // Global font size and border radius
-$font-size-root: 1rem;
 $border-radius-root: 4px;
 $body-font-family: 'Public sans', sans-serif !default;
-$heading-font-family: $body-font-family !default;
 $btn-font-weight: 400 !default;
 $btn-letter-spacing: 0 !default;
 
-// Global Radius as per breakeven point
-$rounded: () !default;
-$rounded: map-deep-merge(
-  (
-    0: 0,
-    'sm': $border-radius-root * 0.5,
-    null: $border-radius-root,
-    'md': $border-radius-root * 1,
-    'lg': $border-radius-root * 2,
-    'xl': $border-radius-root * 6,
-    'pill': 9999px,
-    'circle': 50%,
-    'shaped': $border-radius-root * 6 0
-  ),
-  $rounded
+// Custom Variables
+// colors
+$white: #fff !default;
+
+// cards
+$card-item-spacer-xy: 20px !default;
+$card-text-spacer: 20px !default;
+$card-title-size: 16px !default;
+
+// Global Shadow
+$box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+
+$theme-colors: (
+  primary: var(--v-theme-primary),
+  secondary: var(--v-theme-secondary),
+  success: var(--v-theme-success),
+  info: var(--v-theme-info),
+  warning: var(--v-theme-warning),
+  error: var(--v-theme-error)
 );
-// Global Typography
-$typography: () !default;
-$typography: map-deep-merge(
-  (
+
+// Vuetify overrides
+@use 'vuetify/styles' with (
+  // This will false all colors which is not necessory for theme
+  $color-pack: false,
+
+  // global font family
+  $body-font-family: $body-font-family,
+  $heading-font-family: $body-font-family,
+
+  // Global Radius as per breakeven point
+  $rounded: (
+      (
+        0: 0,
+        'sm': $border-radius-root * 0.5,
+        null: $border-radius-root,
+        'md': $border-radius-root * 1,
+        'lg': $border-radius-root * 2,
+        'xl': $border-radius-root * 6,
+        'pill': 9999px,
+        'circle': 50%,
+        'shaped': $border-radius-root * 6 0
+      )
+    ),
+
+  // Box Shadows
+  $shadow-key-umbra: (24: $box-shadow),
+  $shadow-key-penumbra: (
+    24: (
+      0 0 transparent
+    )
+  ),
+
+  $shadow-key-ambient: (
+    24: (
+      0 0 transparent
+    )
+  ),
+
+  // Global Typography
+  $font-size-root: 1rem,
+  $typography: (
     'h1': (
       'size': 2.375rem,
       'weight': 600,
@@ -114,27 +151,5 @@ $typography: map-deep-merge(
       'letter-spacing': 0,
       'text-transform': uppercase
     )
-  ),
-  $typography
-);
-
-// Custom Variables
-// colors
-$white: #fff !default;
-
-// cards
-$card-item-spacer-xy: 20px !default;
-$card-text-spacer: 20px !default;
-$card-title-size: 16px !default;
-
-// Global Shadow
-$box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
-
-$theme-colors: (
-  primary: var(--v-theme-primary),
-  secondary: var(--v-theme-secondary),
-  success: var(--v-theme-success),
-  info: var(--v-theme-info),
-  warning: var(--v-theme-warning),
-  error: var(--v-theme-error)
+  )
 );
