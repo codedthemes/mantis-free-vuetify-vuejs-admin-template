@@ -1,4 +1,5 @@
-/*This is for the logo*/
+@use '../variables' as *;
+
 .leftSidebar {
   border: 0px;
   box-shadow: none !important;
@@ -80,6 +81,9 @@
       .v-list-item-title {
         font-weight: 500;
       }
+    }
+    .v-list-item__content {
+      min-width: unset;
     }
     .sidebarchip .v-icon {
       margin-inline-start: -3px;
