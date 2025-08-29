@@ -1,24 +1,24 @@
-@import './variables';
-@import 'vuetify/styles/main.sass';
-@import './override';
-@import './layout/container';
-@import './layout/sidebar';
-@import './layout/footer';
-@import './layout/topbar';
+@use './variables';
+@use 'vuetify/styles/main.sass';
+@use './override';
+@use './layout/container';
+@use './layout/sidebar';
+@use './layout/footer';
+@use './layout/topbar';
 
-@import './components/VAlert';
-@import './components/VList';
-@import './components/VButtons';
-@import './components/VCard';
-@import './components/VBadge';
-@import './components/VBreadcrumb';
-@import './components/VField';
-@import './components/VInput';
-@import './components/VNavigationDrawer';
-@import './components/VShadow';
-@import './components/VTextField';
-@import './components/VTextarea';
+@use './components/VAlert';
+@use './components/VList';
+@use './components/VButtons';
+@use './components/VCard';
+@use './components/VBadge';
+@use './components/VBreadcrumb';
+@use './components/VField';
+@use './components/VInput';
+@use './components/VNavigationDrawer';
+@use './components/VShadow';
+@use './components/VTextField';
+@use './components/VTextarea';
 
-@import './page/dashboards';
+@use './page/dashboards';
 
-@import 'vue3-perfect-scrollbar/style.css';
+@use 'vue3-perfect-scrollbar/style.css';

@@ -12,11 +12,9 @@ Vutifiy Mantis is a free admin dashboard template built with Vue. It is meant to
 
 Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, vuetify and Ant Design (M-Ant-is).
 
-
 ✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
 ![IMG_8566.jpg](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-VUE-REPO+-+Mantis.jpg)
-    
 
 ## Table of contents
 
@@ -33,7 +31,7 @@ Mantis Logo is inspired from the insect name - 'Mantises' as they have triangula
 - [More Vue Dashboard Templates](#more-vue-dashboard-templates)
 - [Issues?](#issues)
 - [License](#license)
-- [Contributor](#contributor)   
+- [Contributor](#contributor)
 - [Useful Resources](#useful-resources)
 - [Community](#community)
 - [Follow us](#follow-us)
@@ -60,14 +58,14 @@ yarn run start
 
 ## Download
 
-- Mantis Free 
-    - [Live Preview](https://Mantisdashboard.com/vue/free/) 
-    - [Download](https://github.com/codedthemes/Mantis-free-vue-admin-template)
-- Mantis Pro 
-    - [Live Preview](https://Mantisdashboard.com/vue) 
-    - [Download](https://codedthemes.com/item/mantis-vue-admin-template/)
-      
-## Why Mantis? 
+- Mantis Free
+  - [Live Preview](https://Mantisdashboard.com/vue/free/)
+  - [Download](https://github.com/codedthemes/Mantis-free-vue-admin-template)
+- Mantis Pro
+  - [Live Preview](https://Mantisdashboard.com/vue)
+  - [Download](https://codedthemes.com/item/mantis-vue-admin-template/)
+
+## Why Mantis?
 
 Mantis offers everything you need to create dashboards. We have included the following high-end features in our initial release:
 
@@ -79,26 +77,28 @@ Mantis offers everything you need to create dashboards. We have included the fol
 - Easy Documentation Guide
 
 ## What's included in Premium Version?
+
 The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Mantis Free](https://Mantisdashboard.com/vue/free/) | [Mantis](https://Mantisdashboard.com/vue) |
-| ----------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **9** Demo pages                                      | **45+** demo pages                                                                                                                                             |
-| -                                                     | ✓ Multi-language                                                                                                                                               |
-| -                                                     | ✓ Dark/Light Mode 🌓                                                                                                                                           |
-| -                                                     | ✓ TypeScript version                                                                                                                                           |
-| -                                                     | ✓ Design files (Figma)                                                                                                                                         |
-| -                                                     | ✓ 6+ color Options           |
-| -                                                     | ✓ RTL                                                                                                                                                          |
-| -                                                     | ✓ JWT authentications                                                                                         |
-| -                                                     | ✓ [More components](https://mantisdashboard.com/vue/advance/alert)                                                                                     |
-| ✓ [MIT License](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/master/LICENSE)                                           | ✓ [Pro License](https://codedthemes.com/item/mantis-vue-admin-template/) |
+| [Mantis Free](https://Mantisdashboard.com/vue/free/)                                                         | [Mantis](https://Mantisdashboard.com/vue)                                |
+| ------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------- |
+| **9** Demo pages                                                                                             | **45+** demo pages                                                       |
+| -                                                                                                            | ✓ Multi-language                                                         |
+| -                                                                                                            | ✓ Dark/Light Mode 🌓                                                     |
+| -                                                                                                            | ✓ TypeScript version                                                     |
+| -                                                                                                            | ✓ Design files (Figma)                                                   |
+| -                                                                                                            | ✓ 6+ color Options                                                       |
+| -                                                                                                            | ✓ RTL                                                                    |
+| -                                                                                                            | ✓ JWT authentications                                                    |
+| -                                                                                                            | ✓ [More components](https://mantisdashboard.com/vue/advance/alert)       |
+| ✓ [MIT License](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/master/LICENSE) | ✓ [Pro License](https://codedthemes.com/item/mantis-vue-admin-template/) |
 
 ## Documentation
 
 [Mantis documentation](https://codedthemes.gitbook.io/mantis-vuetify) helps you with installation, deployment, and troubleshooting.
 
 ## Browser support
+
 <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/chrome.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/edge.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/safari.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/firefox.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/opera.png" width="45" height="45" >
 
 ## Technology Stack
@@ -108,6 +108,7 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 - Vue3
 
 ## Mantis Figma UI Kit
+
 <div>
   <a href="https://codedthemes.com/item/mantis-free-figma-ui-kit/">
     <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Mantis.png" width="450" alt="Figma Free">
@@ -117,12 +118,13 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
   </a>
 </div>
 
-## Other Technologies 
-| Technology | Free | Pro |
-|-----------|------|------|
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="25" height="25"></p> | [**Free**](https://codedthemes.com/item/mantis-angular-free-admin-template/) | [**Pro**](https://codedthemes.com/item/mantis-angular-admin-template/) |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/React.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/mantis-free-mui-admin-template/) | [**Pro**](https://codedthemes.com/item/mantis-mui-react-dashboard-template/) |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/mantis-bootstrap-free-admin-template/) | [**Pro**](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/) |
+## Other Technologies
+
+| Technology                                                                                                                        | Free                                                                           | Pro                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/mantis-angular-free-admin-template/)   | [**Pro**](https://codedthemes.com/item/mantis-angular-admin-template/)       |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/React.png" width="30" height="30"></p>     | [**Free**](https://codedthemes.com/item/mantis-free-mui-admin-template/)       | [**Pro**](https://codedthemes.com/item/mantis-mui-react-dashboard-template/) |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/mantis-bootstrap-free-admin-template/) | [**Pro**](https://codedthemes.com/item/mantis-bootstrap-admin-dashboard/)    |
 
 ## Save more with Big Bundle
 
@@ -130,32 +132,36 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 
 ## More Vue Dashboard Templates
 
-| Dashboard | FREE | PRO | 
-| ----- | ---- | ---- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.com/vue/free/) | [**Pro**](https://berrydashboard.com/vue/)</span>|
-
+| Dashboard                                                                                                                                                        | FREE                                             | PRO                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------- |
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.com/vue/free/) | [**Pro**](https://berrydashboard.com/vue/)</span> |
 
 ## Issues
 
 Please generate a [Github issue](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/issues) if you found a bug in any version. We are try our best to resolve the issue.
 
-## License 
+## License
+
 - Licensed under [MIT](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/readme/LICENSE)
 - Copyright © [CodedThemes](https://codedthemes.com/)
 
 ## Contributor
 
 **CodedThemes Team**
+
 - https://x.com/codedthemes
 - https://github.com/codedthemes
 
-**Rakesh Nakrani** 
+**Rakesh Nakrani**
+
 - https://x.com/rakesh_nakrani
 
 **Brijesh Dobariya**
+
 - https://x.com/dobaria_brijesh
 
 ## Useful Resources
+
 - [More Admin Templates From CodedThemes](https://codedthemes.com/item/category/admin-templates/)
 - [Freebies From CodedThemes](https://codedthemes.com/item/category/free-templates/)
 - [Big Bundles](https://codedthemes.com/item/big-bundle/)
@@ -164,11 +170,13 @@ Please generate a [Github issue](https://github.com/codedthemes/mantis-free-vuet
 - [Blogs](https://blog.codedthemes.com/)
 
 ## Community
+
 - 👥Follow [@codedthemes](https://x.com/codedthemes)
 - 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
 - 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
 
 ## Follow Us
+
 - [Twitter](https://twitter.com/codedthemes) 🐦
 - [Dribbble](https://dribbble.com/codedthemes) 🏀
 - [Github](https://github.com/codedthemes) 🐙

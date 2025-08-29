@@ -32,6 +32,13 @@ const chartOptions1 = computed(() => {
     fill: {
       opacity: 1
     },
+    states: {
+      hover: {
+        filter: {
+          type: 'none'
+        }
+      }
+    },
     legend: {
       position: 'top',
       horizontalAlign: 'right',

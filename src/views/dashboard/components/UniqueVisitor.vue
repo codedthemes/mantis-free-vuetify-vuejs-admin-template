@@ -92,9 +92,6 @@ const chartOptions2 = computed(() => {
     },
     legend: {
       show: true
-    },
-    tooltip: {
-      theme: 'dark'
     }
   };
 });
