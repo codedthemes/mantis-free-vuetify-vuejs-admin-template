@@ -10,7 +10,7 @@ Vutifiy Mantis is a free admin dashboard template built with Vue. It is meant to
 
 ### Name Derived From Nature
 
-Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular UI frameworks, vuetify and Ant Design (M-Ant-is).
+Mantis Logo is inspired from the insect name - 'Mantises' as they have triangular heads with flexible Necks. Also, the name is derived from two popular design systems, Material and Ant Design (M-Ant-is).
 
 ✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
