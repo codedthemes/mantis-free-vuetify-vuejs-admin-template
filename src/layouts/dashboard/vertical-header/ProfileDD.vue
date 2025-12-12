@@ -83,7 +83,7 @@ const authStore = useAuthStore();
                 <LogoutOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-subtitle-2"> Logout</v-list-item-title>
+              <v-list-item-title class="text-h6"> Logout</v-list-item-title>
             </v-list-item>
           </v-list>
         </v-window-item>

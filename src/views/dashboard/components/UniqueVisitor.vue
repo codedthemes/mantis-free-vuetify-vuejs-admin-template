@@ -129,7 +129,7 @@ const tab = ref(1);
 <template>
   <v-card class="title-card" variant="text">
     <v-card-item class="pb-2 px-0 pt-0">
-      <div class="d-flex justify-space-between">
+      <div class="d-flex align-center justify-space-between">
         <v-card-title class="text-h5">Unique Visitor</v-card-title>
         <div class="d-flex flex-wrap">
           <v-tabs v-model="tab" color="primary" class="tabBtn" density="compact" hide-slider>
