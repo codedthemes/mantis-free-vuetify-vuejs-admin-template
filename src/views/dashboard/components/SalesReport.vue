@@ -170,7 +170,7 @@ const items = ref(['Today', 'This month', 'This year']);
 <template>
   <v-card class="title-card" variant="text" rounded="md">
     <v-card-item class="pb-2 px-0 pt-0">
-      <div class="d-flex justify-space-between">
+      <div class="d-flex align-center justify-space-between">
         <v-card-title class="text-h5">Sales Report</v-card-title>
         <div style="min-width: 160px">
           <v-autocomplete

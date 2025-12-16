@@ -67,5 +67,8 @@ import AuthFooter from './auth/AuthFooter.vue';
   filter: blur(18px);
   bottom: 0;
   transform: inherit;
+  @media (max-width: 600px) {
+    filter: blur(30px);
+  }
 }
 </style>
