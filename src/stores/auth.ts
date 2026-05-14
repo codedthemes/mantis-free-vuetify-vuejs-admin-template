@@ -10,7 +10,7 @@ export const useAuthStore = defineStore('auth', {
     /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
     // @ts-ignore
     user: JSON.parse(localStorage.getItem('user')),
-    returnUrl: null
+    returnUrl: null as string | null
   }),
   actions: {
     async login(username: string, password: string) {

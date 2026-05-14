@@ -1,3 +1,5 @@
+@use "@/scss/grid/mixins" as breakpoints;
+
 .profileBtn {
   height: 44px !important;
   margin: 0 20px 0 10px !important;
@@ -12,7 +14,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@include breakpoints.max("sm") {
   .profileBtn {
     min-width: 42px;
     margin: 0 12px 0 0 !important;
@@ -25,14 +27,11 @@
       }
     }
   }
-}
-
-@media (max-width: 460px) {
   .notification-dropdown {
     width: 332px !important;
     .v-list-item__content {
       .d-inline-flex {
-        .text-caption {
+        .text-label-small {
           min-width: 50px;
         }
       }

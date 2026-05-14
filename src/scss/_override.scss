@@ -1,4 +1,8 @@
+@use "@/scss/grid/mixins" as breakpoints;
+@use "./variables" as *;
+
 html {
+
   .bg-success,
   .bg-info,
   .bg-warning {
@@ -6,21 +10,33 @@ html {
   }
 }
 
-.v-row + .v-row {
+:focus-visible {
+  outline: none;
+}
+
+
+.v-container:not(.v-container--fluid) {
+  @include breakpoints.min("md") {
+    max-width: unset;
+  }
+
+  @include breakpoints.min("lg") {
+    max-width: 1266px;
+  }
+}
+
+.v-row+.v-row {
   margin-top: 0px;
 }
 
-.v-divider {
-  opacity: 1;
-  border-color: rgb(var(--v-theme-borderLight));
-}
-
-.v-table > .v-table__wrapper > table > thead > tr > th {
+.v-table>.v-table__wrapper>table>thead>tr>th {
   color: inherit;
 }
 
-.border-blue-right {
-  border-right: 1px solid rgba(var(--v-theme-borderLight), 0.36);
+a,
+p {
+  line-height: 1.57;
+  letter-spacing: normal;
 }
 
 .link-hover {
@@ -52,12 +68,6 @@ html {
   }
 }
 
-header {
-  &.v-toolbar--border {
-    border-color: rgb(var(--v-theme-borderLight));
-  }
-}
-
 .v-toolbar {
   &.v-app-bar {
     border-bottom: 1px solid rgba(var(--v-theme-borderLight), 0.8);
@@ -68,13 +78,68 @@ header {
   border: 1px solid rgba(var(--v-theme-borderLight), 0.8);
 }
 
+.list-content {
+  .v-list-item__content {
+    min-width: unset;
+  }
+}
+
+// apexchart css
+.apexcharts-canvas {
+  &:focus-visible {
+    outline: none !important;
+  }
+
+  svg {
+    &:focus {
+      outline: none !important;
+    }
+
+    .apexcharts-keyboard-focused {
+      stroke-width: 0;
+    }
+  }
+  
+  .apexcharts-svg {
+    background: transparent !important;
+  }
+
+  .apexcharts-tooltip-rangebar {
+    padding: 0px 8px 5px;
+  }
+
+  .apexcharts-tooltip-title {
+    margin-bottom: 0;
+  }
+
+  .apexcharts-tooltip-marker {
+    margin-top: -9px;
+  }
+
+  .apexcharts-tooltip-series-group {
+
+    &.apexcharts-active,
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  .apexcharts-menu {
+    .apexcharts-menu-item {
+      &:hover {
+        background: rgb(var(--v-theme-gray100));
+      }
+    }
+  }
+}
+
 // table css
 .v-table {
   &.v-table--hover {
-    > .v-table__wrapper {
-      > table {
-        > tbody {
-          > tr {
+    >.v-table__wrapper {
+      >table {
+        >tbody {
+          >tr {
             &:hover {
               td {
                 background: rgb(var(--v-theme-gray100));
@@ -88,54 +153,168 @@ header {
 }
 
 // accordion page css
-.v-expansion-panel {
-  border: 1px solid rgb(var(--v-theme-borderLight));
-  &:not(:first-child) {
-    margin-top: -1px;
-  }
-  .v-expansion-panel-text__wrapper {
-    border-top: 1px solid rgb(var(--v-theme-borderLight));
-    padding: 16px 24px;
-  }
-  &.v-expansion-panel--active {
-    .v-expansion-panel-title--active {
-      .v-expansion-panel-title__overlay {
-        background-color: rgb(var(--v-theme-gray100));
+.v-expansion-panels {
+  &.v-expansion-panels--variant-accordion {
+    .v-expansion-panel {
+      &:not(:last-child) {
+        border-bottom: 1px solid rgb(var(--v-theme-gray200));
+      }
+
+      &.v-expansion-panel--active {
+        .v-expansion-panel-text {
+          border-top: 1px solid rgb(var(--v-theme-gray200));
+        }
+      }
+
+      &.v-expansion-panel--disabled {
+        .v-expansion-panel-title {
+          color: rgb(var(--v-theme-gray200)) !important;
+
+          .v-expansion-panel-title__overlay {
+            opacity: 0.15;
+          }
+        }
+      }
+
+      &:not(:first-child)::after {
+        opacity: 0;
       }
     }
   }
-}
-.v-expansion-panel--active {
-  > .v-expansion-panel-title {
-    min-height: unset;
-  }
-}
-.v-expansion-panel--disabled .v-expansion-panel-title {
-  color: rgba(var(--v-theme-on-surface), 0.15);
 }
 
-// apexchart css
-.apexcharts-canvas {
-  .apexcharts-tooltip-rangebar {
-    padding: 0px 8px 5px;
+.blur-logo {
+  position: absolute;
+  filter: blur(18px);
+  bottom: 0;
+  transform: inherit;
+
+  @include breakpoints.max("sm") {
+    filter: blur(30px);
   }
-  .apexcharts-tooltip-title {
-    margin-bottom: 0;
+
+  [dir="rtl"] & {
+    left: 0;
   }
-  .apexcharts-tooltip-marker {
-    margin-top: -9px;
-  }
-  .apexcharts-tooltip-series-group {
-    &.apexcharts-active,
-    &:last-child {
-      padding-bottom: 0;
+}
+
+.v-btn-group--horizontal {
+  &.v-btn-group--divided {
+    .v-btn {
+      --v-border-opacity: 1;
+      border-width: 1px;
     }
   }
-  .apexcharts-menu {
-    .apexcharts-menu-item {
-      &:hover {
-        background: rgb(var(--v-theme-gray100));
+
+  .v-btn--disabled {
+    opacity: 0.5;
+  }
+}
+
+@layer vuetify-core {
+  h1 {
+    font-size: 2.375rem;
+    font-weight: 600;
+    line-height: 1.21;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1.27;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.57;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-block-start: 0;
+    margin-bottom: 12px;
+  }
+}
+
+@layer vuetify-components {
+  .v-container {
+    padding-inline: 24px;
+
+    @include breakpoints.max("md") {
+      padding-inline: 16px;
+    }
+
+    @include breakpoints.max("sm") {
+      padding-inline: 12px;
+    }
+  }
+  .v-card {
+    width: 100%;
+    overflow: visible;
+    .v-card-title {
+      &.text-headline-small {
+        font-weight: 600;
+        line-height: 1.57;
       }
+    }
+  }
+
+  .v-menu {
+    > .v-overlay__content {
+      > .v-card, .v-sheet, > .v-list {
+         box-shadow: $box-shadow;
+         &.v-theme--dark {
+          box-shadow: 0px 0px 4px rgba($white, 0.09);
+         }
+      }
+    }
+  }
+
+  .v-input--density-default {
+    &.v-checkbox {
+      --v-input-control-height: 40px;
+    }
+  }
+
+  @supports selector(:focus-visible) {
+    .v-list-item:focus-visible::after, .v-list-item--focus-visible::after {
+        opacity: 0;
     }
   }
 }

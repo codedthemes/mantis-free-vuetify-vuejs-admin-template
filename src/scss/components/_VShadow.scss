@@ -1,8 +1,4 @@
-@use '../variables' as *;
-
-.elevation-24 {
-  box-shadow: $box-shadow !important;
-}
+@use "../variables" as *;
 
 .v-menu {
   > .v-overlay__content {
@@ -18,5 +14,9 @@
     &:hover {
       box-shadow: none;
     }
+  }
+  
+  .custom-#{$color}-shadow {
+    box-shadow: var(--v-custom-shadows-#{$color});
   }
 }

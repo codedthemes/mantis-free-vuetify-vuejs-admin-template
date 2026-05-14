@@ -1,37 +1,24 @@
-@use '../variables' as *;
+@use "../variables" as *;
+
 // Outline Card
 .v-card--variant-outlined {
   border-color: rgba(var(--v-theme-borderLight), 1);
+
   .v-divider {
-    border-color: rgba(var(--v-theme-borderLight), 0.8);
+    border-color: rgba(var(--v-border-color), 1);
   }
 }
 
-.v-card-text {
-  padding: $card-text-spacer;
-}
+.card-hover-border {
+  border: 1px solid rgb(var(--v-theme-borderLight));
 
-.v-card-actions {
-  padding: 14px $card-text-spacer 14px;
-}
-
-.v-card {
-  width: 100%;
-  overflow: visible;
-  .v-card-title {
-    &.text-h6 {
-      font-weight: 600;
-      line-height: 1.57;
-    }
+  &:hover {
+    border: 1px solid rgb(var(--v-theme-primary));
   }
 }
 
-.v-card-item {
-  padding: $card-item-spacer-xy;
-}
-
-.v-card-subtitle {
-  font-size: 0.75rem;
+.card-shadow {
+  box-shadow: var(--v-card-shadow);
 }
 
 .title-card {

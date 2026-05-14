@@ -13,10 +13,8 @@ import {
   ProfileOutlined,
   WalletOutlined
 } from '@ant-design/icons-vue';
-import { useAuthStore } from '@/stores/auth';
 
 const tab = ref(null);
-const authStore = useAuthStore();
 </script>
 
 <template>
@@ -33,7 +31,7 @@ const authStore = useAuthStore();
         <p class="text-caption mb-0">UI/UX Designer</p>
       </div>
       <div class="ml-auto">
-        <v-btn variant="text" color="primary" rounded="sm" icon size="large" @click="authStore.logout()">
+        <v-btn variant="text" color="primary" rounded="sm" icon size="large">
           <LogoutOutlined :style="{ fontSize: '20px' }" />
         </v-btn>
       </div>
@@ -78,7 +76,7 @@ const authStore = useAuthStore();
               <v-list-item-title class="text-h6"> Billing</v-list-item-title>
             </v-list-item>
 
-            <v-list-item @click="authStore.logout()" color="secondary" rounded="0">
+            <v-list-item color="secondary" rounded="0">
               <template v-slot:prepend>
                 <LogoutOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
