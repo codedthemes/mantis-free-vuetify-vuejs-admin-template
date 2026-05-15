@@ -1,27 +1,21 @@
-.single-line-alert {
+@use "@/scss/grid/mixins" as breakpoints;
+
+.v-alert {
+  line-height: 1.60;
+  letter-spacing: normal;
+
   .v-alert__close,
-  .v-alert__prepend {
-    align-self: center !important;
+  .v-alert__append {
+    align-self: center;
   }
 }
 
 .v-alert__prepend {
   align-self: center;
-}
 
-@media (max-width: 500px) {
-  .single-line-alert {
-    display: flex;
-    flex-wrap: wrap;
-    .v-alert__append {
-      margin-inline-start: 0px;
-    }
-    .v-alert__close {
-      margin-left: auto;
-    }
-    .v-alert__content {
-      width: 100%;
-      margin-top: 5px;
-    }
+  .mdi {
+    width: 18px !important;
+    height: 18px !important;
+    font-size: 18px !important;
   }
 }

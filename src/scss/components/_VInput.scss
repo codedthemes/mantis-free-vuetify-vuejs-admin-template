@@ -1,7 +1,6 @@
-.v-input--density-default:not(.v-autocomplete--multiple),
+.v-input:not(.v-autocomplete--multiple),
 .v-field--variant-solo,
 .v-field--variant-filled {
-  --v-input-control-height: 39px;
   --v-input-padding-top: 2px;
   input.v-field__input {
     padding-bottom: 2px;
@@ -13,9 +12,36 @@
     padding-top: 11px;
   }
 }
+
+.v-field__input {
+  padding-left: 12px;
+}
+
 .v-input--density-default {
+  .v-field:not(.v-field--variant-filled) {
+    .v-field__input {
+      min-height: 40px;
+    }
+
+    .v-label {
+      &.v-field-label--floating {
+        font-size: 0.70rem;
+      }
+    }
+  }
+
   .v-field__input {
-    min-height: 41px;
+    row-gap: 6px;
+  }
+
+  .v-field--variant-underlined {
+    --v-field-padding-top: 10px;
+  }
+}
+
+.v-input--density-compact {
+  .v-field__input {
+    min-height: 32px;
   }
 }
 .v-field--variant-outlined {
@@ -37,6 +63,8 @@
 }
 .v-label {
   font-size: 0.875rem;
+  line-height: 1.57;
+  letter-spacing: normal;
   --v-medium-emphasis-opacity: 0.8;
 }
 .v-switch .v-label,

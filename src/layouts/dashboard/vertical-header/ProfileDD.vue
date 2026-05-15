@@ -13,10 +13,8 @@ import {
   ProfileOutlined,
   WalletOutlined
 } from '@ant-design/icons-vue';
-import { useAuthStore } from '@/stores/auth';
 
 const tab = ref(null);
-const authStore = useAuthStore();
 </script>
 
 <template>
@@ -29,11 +27,11 @@ const authStore = useAuthStore();
         <img src="@/assets/images/users/avatar-1.png" width="32" alt="Julia" />
       </v-avatar>
       <div>
-        <h6 class="text-h6 mb-0">JWT User</h6>
-        <p class="text-caption mb-0">UI/UX Designer</p>
+        <h6 class="mb-0">JWT User</h6>
+        <p class="text-label-small mb-0">UI/UX Designer</p>
       </div>
       <div class="ml-auto">
-        <v-btn variant="text" color="primary" rounded="sm" icon size="large" @click="authStore.logout()">
+        <v-btn variant="text" color="primary" rounded="sm" icon size="large">
           <LogoutOutlined :style="{ fontSize: '20px' }" />
         </v-btn>
       </div>
@@ -51,7 +49,7 @@ const authStore = useAuthStore();
                 <EditOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Edit Profile</v-list-item-title>
+              <h6>Edit Profile</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="View Profile">
@@ -59,7 +57,7 @@ const authStore = useAuthStore();
                 <UserOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> View Profile</v-list-item-title>
+              <h6>View Profile</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Social Profile">
@@ -67,7 +65,7 @@ const authStore = useAuthStore();
                 <ProfileOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Social Profile</v-list-item-title>
+              <h6>Social Profile</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Billing">
@@ -75,15 +73,15 @@ const authStore = useAuthStore();
                 <WalletOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Billing</v-list-item-title>
+              <h6>Billing</h6>
             </v-list-item>
 
-            <v-list-item @click="authStore.logout()" color="secondary" rounded="0">
+            <v-list-item color="secondary" rounded="0">
               <template v-slot:prepend>
                 <LogoutOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Logout</v-list-item-title>
+              <h6>Logout</h6>
             </v-list-item>
           </v-list>
         </v-window-item>
@@ -94,7 +92,7 @@ const authStore = useAuthStore();
                 <QuestionCircleOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Support</v-list-item-title>
+              <h6>Support</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Account">
@@ -102,7 +100,7 @@ const authStore = useAuthStore();
                 <UserOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Account settings</v-list-item-title>
+              <h6>Account settings</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Privacy">
@@ -110,7 +108,7 @@ const authStore = useAuthStore();
                 <LockOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Privacy center</v-list-item-title>
+              <h6>Privacy center</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Feedback">
@@ -118,7 +116,7 @@ const authStore = useAuthStore();
                 <CommentOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Feedback</v-list-item-title>
+              <h6>Feedback</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="History">
@@ -126,7 +124,7 @@ const authStore = useAuthStore();
                 <UnorderedListOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> History</v-list-item-title>
+              <h6>History</h6>
             </v-list-item>
           </v-list>
         </v-window-item>

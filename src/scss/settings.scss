@@ -1,0 +1,97 @@
+@use "./grid/grid-breakpoints" as *;
+
+$custom-divider-border-color: rgb(var(--v-border-color));
+
+$custom-breadcrumbs-item-padding: 0;
+$custom-breadcrumbs-item-disabled-opacity: 1;
+$custom-breadcrumbs-padding-x: 20px;
+$custom-breadcrumbs-item-link-text-decoration: none;
+
+$custom-text-field-affix-color: rgb(var(--v-theme-darkText));
+
+$custom-badge-dot-size: 8px;
+$custom-badge-padding: 2px 4px;
+$custom-badge-size: 16px;
+$custom-badge-border-width: 1px;
+$custom-badge-font-family: var(--v-body-font-family);
+$custom-badge-wrapper-margin: 0;
+
+$custom-chip-disabled-opacity: 0.38;
+
+$custom-list-item-icon-opacity: 1;
+$custom-list-item-padding: 12px 16px;
+$custom-list-disabled-opacity: 0.25;
+
+$custom-progress-linear-background-opacity: 0.25;
+
+$custom-button-icon-density: (
+  'default': 1,
+  'comfortable': 0,
+  'compact': -2
+);
+
+$custom-pagination-item-margin: 4px;
+
+$custom-tabs-height: 46px;
+
+$custom-card-subtitle-line-height: 1.66;
+$custom-card-subtitle-opacity: 0.528;
+$custom-card-subtitle-padding: 0;
+$custom-card-subtitle-font-size: 0.75rem;
+$custom-card-text-padding: 20px;
+$custom-card-actions-padding: 14px 20px 14px;
+
+$custom-field-overlay-focused-background-color: rgb(var(--v-theme-lightprimary));
+
+// src/styles/settings.scss
+@forward "vuetify/settings" with ($grid-breakpoints: $custom-grid-breakpoints,
+
+  $divider-border-color: $custom-divider-border-color,
+
+  // breadcrumbs
+  $breadcrumbs-item-padding: $custom-breadcrumbs-item-padding,
+  $breadcrumbs-item-disabled-opacity: $custom-breadcrumbs-item-disabled-opacity,
+  $breadcrumbs-padding-x: $custom-breadcrumbs-padding-x,
+  $breadcrumbs-item-link-text-decoration: $custom-breadcrumbs-item-link-text-decoration,
+
+  // text field
+  $field-overlay-focused-background-color: $custom-field-overlay-focused-background-color,
+
+  // badge
+  $badge-dot-width: $custom-badge-dot-size,
+  $badge-dot-height: $custom-badge-dot-size,
+  $badge-padding: $custom-badge-padding,
+  $badge-min-width: $custom-badge-size,
+  $badge-height: $custom-badge-size,
+  $badge-border-width: $custom-badge-border-width,
+  $badge-font-family: $custom-badge-font-family,
+  $badge-dot-border-width: $custom-badge-border-width,
+  $badge-wrapper-margin: $custom-badge-wrapper-margin,
+
+  // chip
+  $chip-disabled-opacity: $custom-chip-disabled-opacity,
+
+  $text-field-affix-color: $custom-text-field-affix-color,
+
+  $list-item-icon-opacity: $custom-list-item-icon-opacity,
+  $list-item-padding: $custom-list-item-padding,
+  $list-disabled-opacity: $custom-list-disabled-opacity,
+
+  $progress-linear-background-opacity: $custom-progress-linear-background-opacity,
+
+  $button-icon-density: $custom-button-icon-density,
+
+  // pagination
+  $pagination-item-margin: $custom-pagination-item-margin,
+
+  $tabs-height: $custom-tabs-height,
+
+  // cards
+  $card-subtitle-line-height: $custom-card-subtitle-line-height,
+  $card-subtitle-opacity: $custom-card-subtitle-opacity,
+  $card-subtitle-padding: $custom-card-subtitle-padding,
+  $card-subtitle-font-size: $custom-card-subtitle-font-size,
+  $card-text-padding: $custom-card-text-padding,
+  $card-item-padding: $custom-card-text-padding,
+  $card-actions-padding: $custom-card-actions-padding,
+);
