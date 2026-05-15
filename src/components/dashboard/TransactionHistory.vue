@@ -44,12 +44,12 @@ const transaction = shallowRef([
         </template>
         <div class="d-flex align-center justify-space-between w-100 ga-2">
           <div>
-            <h6 class="text-subtitle-1 mb-0">{{ history.title }}</h6>
-            <span class="text-subtitle-2 text-lightText font-weight-regular">{{ history.subtitle }}</span>
+            <h6 class="text-body-large mb-0">{{ history.title }}</h6>
+            <span class="text-body-small text-lightText font-weight-regular">{{ history.subtitle }}</span>
           </div>
           <div class="text-right">
-            <h6 class="text-subtitle-1 mb-0">{{ history.price }}</h6>
-            <span class="text-h6 text-lightText">{{ history.pricepercent }}</span>
+            <h6 class="text-body-large mb-0">{{ history.price }}</h6>
+            <h6 class="text-lightText">{{ history.pricepercent }}</h6>
           </div>
         </div>
       </v-list-item>

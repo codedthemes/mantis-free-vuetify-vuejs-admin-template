@@ -27,8 +27,8 @@ const tab = ref(null);
         <img src="@/assets/images/users/avatar-1.png" width="32" alt="Julia" />
       </v-avatar>
       <div>
-        <h6 class="text-h6 mb-0">JWT User</h6>
-        <p class="text-caption mb-0">UI/UX Designer</p>
+        <h6 class="mb-0">JWT User</h6>
+        <p class="text-label-small mb-0">UI/UX Designer</p>
       </div>
       <div class="ml-auto">
         <v-btn variant="text" color="primary" rounded="sm" icon size="large">
@@ -49,7 +49,7 @@ const tab = ref(null);
                 <EditOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Edit Profile</v-list-item-title>
+              <h6>Edit Profile</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="View Profile">
@@ -57,7 +57,7 @@ const tab = ref(null);
                 <UserOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> View Profile</v-list-item-title>
+              <h6>View Profile</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Social Profile">
@@ -65,7 +65,7 @@ const tab = ref(null);
                 <ProfileOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Social Profile</v-list-item-title>
+              <h6>Social Profile</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Billing">
@@ -73,7 +73,7 @@ const tab = ref(null);
                 <WalletOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Billing</v-list-item-title>
+              <h6>Billing</h6>
             </v-list-item>
 
             <v-list-item color="secondary" rounded="0">
@@ -81,7 +81,7 @@ const tab = ref(null);
                 <LogoutOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Logout</v-list-item-title>
+              <h6>Logout</h6>
             </v-list-item>
           </v-list>
         </v-window-item>
@@ -92,7 +92,7 @@ const tab = ref(null);
                 <QuestionCircleOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Support</v-list-item-title>
+              <h6>Support</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Account">
@@ -100,7 +100,7 @@ const tab = ref(null);
                 <UserOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Account settings</v-list-item-title>
+              <h6>Account settings</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Privacy">
@@ -108,7 +108,7 @@ const tab = ref(null);
                 <LockOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Privacy center</v-list-item-title>
+              <h6>Privacy center</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="Feedback">
@@ -116,7 +116,7 @@ const tab = ref(null);
                 <CommentOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> Feedback</v-list-item-title>
+              <h6>Feedback</h6>
             </v-list-item>
 
             <v-list-item color="primary" rounded="0" value="History">
@@ -124,7 +124,7 @@ const tab = ref(null);
                 <UnorderedListOutlined :style="{ fontSize: '14px' }" class="mr-4" />
               </template>
 
-              <v-list-item-title class="text-h6"> History</v-list-item-title>
+              <h6>History</h6>
             </v-list-item>
           </v-list>
         </v-window-item>

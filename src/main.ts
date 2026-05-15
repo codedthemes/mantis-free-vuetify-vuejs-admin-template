@@ -15,11 +15,7 @@ import '@fontsource/public-sans/500.css';
 import '@fontsource/public-sans/600.css';
 import '@fontsource/public-sans/700.css';
 
-//Mock Api data
-import { fakeBackend } from '@/utils/helpers/fake-backend';
-
 const app = createApp(App);
-fakeBackend();
 app.use(router);
 app.use(PerfectScrollbarPlugin);
 app.use(createPinia());

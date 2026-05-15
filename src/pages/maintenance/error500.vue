@@ -7,8 +7,8 @@
         <div class="errorMedia">
           <img src="@/assets/images/maintenance/Error500.png" alt="500" />
         </div>
-        <h1 class="text-h1 mt-2 mb-1">Internal Server Error</h1>
-        <p class="text-caption text-lightText">Server error 500. we fixing the problem. please try <br />again at a later stage.</p>
+        <h1 class="mt-2 mb-1">Internal Server Error</h1>
+        <p class="text-label-small text-lightText">Server error 500. we fixing the problem. please try <br />again at a later stage.</p>
         <v-btn variant="flat" color="primary" class="mt-4" to="/dashboard"> Back To Home</v-btn>
       </div>
     </v-col>

@@ -7,10 +7,10 @@
         <div class="constructionWrapper">
           <img src="@/assets/images/maintenance/under-construction.svg" alt="under construction" />
         </div>
-        <h1 class="text-h1 mt-9 mb-3">Under Construction</h1>
-        <p class="text-h6 text-lightText constructionContent">
+        <h1 class="mt-9 mb-3">Under Construction</h1>
+        <h6 class="text-lightText constructionContent">
           Hey! Please check out this site later. We are doing some maintenance on it right now.
-        </p>
+        </h6>
         <v-btn variant="flat" color="primary" to="/dashboard">Back To Home</v-btn>
       </div>
     </v-col>

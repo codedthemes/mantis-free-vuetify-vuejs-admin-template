@@ -32,39 +32,39 @@ export default {
         <div class="ComingsoonWrapper my-6">
           <img src="@/assets/images/maintenance/coming-soon.png" alt="maintenance" class="w-100" />
         </div>
-        <h1 class="text-h1 mb-2 mt-sm-12">Coming Soon</h1>
-        <small class="text-h6 text-lightText">Something new is on it's way</small>
+        <h1 class="mb-2 mt-sm-12">Coming Soon</h1>
+        <h6 class="text-lightText">Something new is on it's way</h6>
         <div class="max450 align-center mt-5">
           <v-row class="ma-0 comingsoon-timer overflow-hidden">
             <v-col cols="3" sm="3">
               <v-card variant="outlined" class="bg-surface">
                 <v-card-text class="pa-0">
-                  <v-sheet rounded="md" class="Timeblock text-h2 py-3 px-1">{{ days % 365 }} </v-sheet>
-                  <h6 class="pa-1 bg-gray100 text-caption mb-0">day</h6>
+                  <v-sheet rounded="md" class="Timeblock text-display-medium py-3 px-1">{{ days % 365 }} </v-sheet>
+                  <h6 class="pa-1 bg-gray100 text-label-small mb-0">day</h6>
                 </v-card-text>
               </v-card>
             </v-col>
             <v-col cols="3" sm="3">
               <v-card variant="outlined" class="bg-surface">
                 <v-card-text class="pa-0">
-                  <v-sheet rounded="md" class="Timeblock text-h2 py-3 px-1">{{ hours % 24 }}</v-sheet>
-                  <h6 class="pa-1 bg-gray100 text-caption mb-0">hour</h6>
+                  <v-sheet rounded="md" class="Timeblock text-display-medium py-3 px-1">{{ hours % 24 }}</v-sheet>
+                  <h6 class="pa-1 bg-gray100 text-label-small mb-0">hour</h6>
                 </v-card-text>
               </v-card>
             </v-col>
             <v-col cols="3" sm="3">
               <v-card variant="outlined" class="bg-surface">
                 <v-card-text class="pa-0">
-                  <v-sheet rounded="md" class="Timeblock text-h2 py-3 px-1">{{ minutes % 60 }}</v-sheet>
-                  <h6 class="pa-1 bg-gray100 text-caption mb-0">minute</h6>
+                  <v-sheet rounded="md" class="Timeblock text-display-medium py-3 px-1">{{ minutes % 60 }}</v-sheet>
+                  <h6 class="pa-1 bg-gray100 text-label-small mb-0">minute</h6>
                 </v-card-text>
               </v-card>
             </v-col>
             <v-col cols="3" sm="3">
               <v-card variant="outlined" class="bg-surface">
                 <v-card-text class="pa-0">
-                  <v-sheet rounded="md" class="Timeblock text-h2 py-3 px-1">{{ seconds % 60 }}</v-sheet>
-                  <h6 class="pa-1 bg-gray100 text-caption mb-0">second</h6>
+                  <v-sheet rounded="md" class="Timeblock text-display-medium py-3 px-1">{{ seconds % 60 }}</v-sheet>
+                  <h6 class="pa-1 bg-gray100 text-label-small mb-0">second</h6>
                 </v-card-text>
               </v-card>
             </v-col>
@@ -72,7 +72,7 @@ export default {
         </div>
         <v-row class="ma-0">
           <v-col cols="12" class="pt-7 pb-0">
-            <h6 class="text-h6 text-secondary mb-3">Be the first to be notified when Mantis launches.</h6>
+            <h6 class="text-secondary mb-3">Be the first to be notified when Mantis launches.</h6>
           </v-col>
           <v-col cols="12" class="d-sm-flex ga-2 align-center pt-0">
             <v-text-field variant="outlined" label="Email Address" color="primary" hide-details></v-text-field>

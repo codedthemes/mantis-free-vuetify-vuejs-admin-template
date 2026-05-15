@@ -89,7 +89,7 @@ const items = ref(['Today', 'This month', 'This year']);
   <v-card class="title-card" variant="text" rounded="md">
     <v-card-item class="pb-2 px-0 pt-0">
       <div class="d-flex align-center justify-space-between">
-        <v-card-title class="text-h5">Sales Report</v-card-title>
+        <v-card-title class="text-headline-medium">Sales Report</v-card-title>
         <div style="min-width: 160px">
           <v-autocomplete
             id="autocomplete-input"
@@ -105,8 +105,8 @@ const items = ref(['Today', 'This month', 'This year']);
     </v-card-item>
     <v-card-text variant="outlined" class="rounded-md">
       <div class="pt-5">
-        <h6 class="text-h6 text-lightText mb-3">Net Profit</h6>
-        <h4 class="text-h4 mb-0">$1560</h4>
+        <h6 class="text-lightText mb-3">Net Profit</h6>
+        <h4 class="mb-0">$1560</h4>
       </div>
       <apexchart type="bar" height="360" class="salesReport" :options="chartOptions1" :series="barChart1.series"> </apexchart>
     </v-card-text>

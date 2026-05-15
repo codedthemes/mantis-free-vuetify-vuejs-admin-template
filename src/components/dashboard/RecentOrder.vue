@@ -82,11 +82,11 @@ const projects = shallowRef([
     <v-table class="bordered-table" hover density="comfortable">
       <thead class="bg-containerBg">
         <tr>
-          <th class="text-left text-caption font-weight-bold text-uppercase">Tracking no.</th>
-          <th class="text-left text-caption font-weight-bold text-uppercase">Product name</th>
-          <th class="text-right text-caption font-weight-bold text-uppercase" style="min-width: 100px">Total order</th>
-          <th class="text-left text-caption font-weight-bold text-uppercase">Status</th>
-          <th class="text-right text-caption font-weight-bold text-uppercase">Total amount</th>
+          <th class="text-left text-label-small font-weight-bold text-uppercase">Tracking no.</th>
+          <th class="text-left text-label-small font-weight-bold text-uppercase">Product name</th>
+          <th class="text-right text-label-small font-weight-bold text-uppercase" style="min-width: 100px">Total order</th>
+          <th class="text-left text-label-small font-weight-bold text-uppercase">Status</th>
+          <th class="text-right text-label-small font-weight-bold text-uppercase">Total amount</th>
         </tr>
       </thead>
       <tbody>
@@ -99,15 +99,15 @@ const projects = shallowRef([
           <td class="py-3">
             <v-chip variant="text" size="small" class="px-0" v-if="item.priority === 'rejected'">
               <v-avatar size="8" color="error" variant="flat" class="mr-2"></v-avatar>
-              <p class="text-h6 mb-0">Rejected</p>
+              <h6>Rejected</h6>
             </v-chip>
             <v-chip variant="text" size="small" class="px-0" v-else-if="item.priority === 'approved'">
               <v-avatar size="8" color="success" variant="flat" class="mr-2"></v-avatar>
-              <p class="text-h6 mb-0">Approved</p>
+              <h6>Approved</h6>
             </v-chip>
             <v-chip variant="text" size="small" class="px-0" v-else>
               <v-avatar size="8" color="warning" variant="flat" class="mr-2"></v-avatar>
-              <p class="text-h6 mb-0">Pending</p>
+              <h6>Pending</h6>
             </v-chip>
           </td>
           <td class="py-3 text-right" style="min-width: 100px">{{ item.amount }}</td>

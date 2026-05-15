@@ -17,7 +17,7 @@ const footerLink = shallowRef([
   <v-footer class="px-0 pt-2">
     <v-row justify="center" no-gutters>
       <v-col cols="12" md="6" class="text-md-left text-center">
-        <p class="text-subtitle-2 text-lightText mb-md-0 mb-4">
+        <p class="text-body-small text-lightText mb-md-0 mb-4">
           This site is protected by
           <a href="/" class="text-primary">Privacy Policy</a>
         </p>
@@ -26,7 +26,7 @@ const footerLink = shallowRef([
         <a
           v-for="(item, i) in footerLink"
           :key="i"
-          class="mx-md-3 mx-2 mb-md-0 mb-2 text-subtitle-2 text-lightText"
+          class="mx-md-3 mx-2 mb-md-0 mb-2 text-body-small text-lightText"
           href="https://codedthemes.com"
           target="_blank"
         >

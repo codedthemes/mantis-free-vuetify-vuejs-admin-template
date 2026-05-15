@@ -70,8 +70,8 @@ const barChart1 = {
 <template>
   <UiTitleCard title="Income Overview" class-name="pt-5 px-0 rounded-md overflow-hidden">
     <div class="px-5">
-      <h6 class="text-h6 text-lightText mb-4">This Week Statistics</h6>
-      <h3 class="text-h3 mb-0">$7,650</h3>
+      <h6 class="text-lightText mb-4">This Week Statistics</h6>
+      <h3 class="mb-0">$7,650</h3>
     </div>
     <apexchart type="bar" height="365" :options="chartOptions1" :series="barChart1.series"> </apexchart>
   </UiTitleCard>

@@ -3,8 +3,8 @@
     <v-card-text>
       <div class="d-flex align-center justify-space-between">
         <div>
-          <h5 class="text-h5 mb-0">Help &amp; Support Chat</h5>
-          <span class="text-caption text-lightText">Typical replay within 5 min</span>
+          <h5 class="mb-0">Help &amp; Support Chat</h5>
+          <span class="text-label-small text-lightText">Typical replay within 5 min</span>
         </div>
         <div class="d-flex align-center justify-center flex-wrap flex-row-reverse">
           <v-avatar size="35" variant="outlined" color="surface" class="ml-n2">

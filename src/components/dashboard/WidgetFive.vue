@@ -47,8 +47,8 @@ const fivecards = shallowRef([
           <v-card-text>
             <div class="d-flex align-items-center justify-space-between">
               <div>
-                <h6 class="text-h6 text-lightText mb-1">{{ card5.name }}</h6>
-                <h4 class="text-h4 d-flex align-center mb-0">
+                <h6 class="text-lightText mb-1">{{ card5.name }}</h6>
+                <h4 class="d-flex align-center mb-0">
                   {{ card5.earn }}
                   <v-chip :color="card5.color" :border="`${card5.color} solid thin opacity-50`" class="ml-2" size="small" label>
                     <template v-slot:prepend>
@@ -57,7 +57,7 @@ const fivecards = shallowRef([
                     {{ card5.percent }}
                   </v-chip>
                 </h4>
-                <span class="text-lightText text-caption pt-5 d-block"
+                <span class="text-lightText text-label-small pt-5 d-block"
                   >You made an extra <span :class="'text-' + card5.color">{{ card5.text }}</span> this year</span
                 >
               </div>
