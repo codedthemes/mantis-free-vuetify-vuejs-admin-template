@@ -1,10 +1,12 @@
+@use "../variables" as *;
+
 //
 // Light Buttons
 //
-@use '../variables' as *;
 
 .v-btn {
   &.bg-lightprimary {
+
     &:hover,
     &:active,
     &:focus {
@@ -12,7 +14,9 @@
       color: $white !important;
     }
   }
+
   &.bg-lightsecondary {
+
     &:hover,
     &:active,
     &:focus {
@@ -20,7 +24,9 @@
       color: $white !important;
     }
   }
+
   &.text-facebook {
+
     &:hover,
     &:active,
     &:focus {
@@ -28,7 +34,9 @@
       color: $white !important;
     }
   }
+
   &.text-twitter {
+
     &:hover,
     &:active,
     &:focus {
@@ -36,7 +44,9 @@
       color: $white !important;
     }
   }
+
   &.text-linkedin {
+
     &:hover,
     &:active,
     &:focus {
@@ -50,20 +60,34 @@
   text-transform: capitalize;
   letter-spacing: $btn-letter-spacing;
   font-weight: 400;
-}
-.v-btn--icon.v-btn--density-default {
-  width: calc(var(--v-btn-height) + 6px);
-  height: calc(var(--v-btn-height) + 6px);
+  font-size: 0.875rem;
+
+  &:hover {
+    >.v-btn__overlay {
+      --v-hover-opacity: 0.106;
+    }
+  }
 }
 
-.v-btn-group .v-btn {
-  height: inherit !important;
+.v-btn--size-small {
+  --v-btn-height: 28px;
+  font-size: 0.75rem;
 }
 
-.v-btn-group {
-  border-color: rgba(var(--v-border-color), 1);
+.v-btn--size-x-small {
+  font-size: 0.63rem;
 }
 
-.v-btn-group--divided .v-btn:not(:last-child) {
-  border-inline-end-color: rgba(var(--v-border-color), 1);
+.v-btn--size-large {
+  --v-btn-height: 42px;
+}
+
+.v-btn--icon {
+  &.v-btn--density-comfortable {
+    margin-left: -1px;
+  }
+
+  &.v-btn--size-x-large {
+    --v-btn-height: 50px;
+  }
 }

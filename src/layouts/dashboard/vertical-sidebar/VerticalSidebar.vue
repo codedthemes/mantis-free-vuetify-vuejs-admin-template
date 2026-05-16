@@ -31,7 +31,7 @@ const sidebarMenu = shallowRef(sidebarItems);
     <!-- ---------------------------------------------- -->
     <!---Navigation -->
     <!-- ---------------------------------------------- -->
-    <perfect-scrollbar class="scrollnavbar">
+    <perfect-scrollbar class="scrollnavbar" :options="{ suppressScrollX: true }">
       <v-list aria-busy="true" aria-label="menu list">
         <!---Menu Loop -->
         <template v-for="(item, i) in sidebarMenu" :key="i">

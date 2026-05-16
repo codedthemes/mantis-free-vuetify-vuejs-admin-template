@@ -38,12 +38,12 @@ const sidebarItem: menu[] = [
   {
     title: 'Login',
     icon: LoginOutlined,
-    to: '/login1'
+    to: '/authentication/login'
   },
   {
     title: 'Register',
     icon: ProfileOutlined,
-    to: '/register'
+    to: '/authentication/register'
   },
   { header: 'Utilities' },
   {
@@ -70,7 +70,7 @@ const sidebarItem: menu[] = [
   {
     title: 'Sample Page',
     icon: ChromeOutlined,
-    to: '/sample-page'
+    to: '/starter'
   },
   {
     title: 'Documentation',
