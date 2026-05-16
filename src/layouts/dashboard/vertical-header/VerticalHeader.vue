@@ -104,7 +104,7 @@ const customizer = useCustomizerStore();
             <v-avatar class="mr-sm-2 mr-0 py-2">
               <img src="@/assets/images/users/avatar-1.png" alt="Julia" />
             </v-avatar>
-            <h6 class="text-subtitle-1 mb-0 d-sm-block d-none">JWT User</h6>
+            <h6 class="text-body-large mb-0 d-sm-block d-none">JWT User</h6>
           </div>
         </v-btn>
       </template>
