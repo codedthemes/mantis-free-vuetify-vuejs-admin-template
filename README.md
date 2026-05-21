@@ -1,7 +1,9 @@
-# Mantis Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Mantis%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://Mantisdashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# Mantis Free Vue Vuetify Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Mantis%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://Mantisdashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
+[![Vue](https://img.shields.io/badge/Vue-3-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
+[![Vuetify](https://img.shields.io/badge/Vuetify-4-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
+[![Vite](https://img.shields.io/badge/Vite-8-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
 [![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/mantis-free-vuetify-vuejs-admin-template)](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/)
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/mantis-free-vuetify-vuejs-admin-template/)
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
@@ -31,9 +33,8 @@ Mantis Logo is inspired from the insect name - 'Mantises' as they have triangula
 - [More Vue Dashboard Templates](#more-vue-dashboard-templates)
 - [Issues?](#issues)
 - [License](#license)
-- [Contributor](#contributor)
+- [Community and Support](#communtiy-and-support)
 - [Useful Resources](#useful-resources)
-- [Community](#community)
 - [Follow us](#follow-us)
 
 ## Getting Started
@@ -103,20 +104,15 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 
 ## Technology Stack
 
-- [Vuetify 3](https://vuetifyjs.com/)
+- [Vuetify 4](https://vuetifyjs.com/)
 - [Vite](https://vite.dev/)
-- Vue3
+- [Vue3](https://vuejs.org/)
 
 ## Mantis Figma UI Kit
 
-<div>
-  <a href="https://codedthemes.com/item/mantis-free-figma-ui-kit/">
-    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Mantis.png" width="450" alt="Figma Free">
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://codedthemes.com/item/mantis-figma-ui-kit/">
-    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Pro_Mantis.png" width="450" alt="Figma Pro">
-  </a>
-</div>
+ | FREE                                                                                                                                                                                                           | PRO                                                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://codedthemes.com/item/berry-free-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Berry.png" width="450" alt="Figma Free"></a> | <a href="https://codedthemes.com/item/berry-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma-Pro-Berry.png" width="450" alt="Figma Pro"></a> |
 
 ## Other Technologies
 
@@ -135,6 +131,7 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 | Dashboard                                                                                                                                                        | FREE                                             | PRO                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------- |
 | <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.com/vue/free/) | [**Pro**](https://berrydashboard.com/vue/)</span> |
+|<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Datta%20with%20name.png"  height="30"></p>     | [**Free**](https://codedthemes.com/demos/admin-templates/datta-able/vue/free/)       | [**Pro**](https://codedthemes.com/demos/admin-templates/datta-able/vue/) |
 
 ## Issues
 
@@ -145,20 +142,13 @@ Please generate a [Github issue](https://github.com/codedthemes/mantis-free-vuet
 - Licensed under [MIT](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/readme/LICENSE)
 - Copyright © [CodedThemes](https://codedthemes.com/)
 
-## Contributor
 
-**CodedThemes Team**
 
-- https://x.com/codedthemes
-- https://github.com/codedthemes
-
-**Rakesh Nakrani**
-
-- https://x.com/rakesh_nakrani
-
-**Brijesh Dobariya**
-
-- https://x.com/dobaria_brijesh
+## Community and Support
+ 
+- **GitHub Discussion** - [Ask questions and share ideas](https://github.com/codedthemes/berry-free-react-admin-template/discussions)
+- **X/Twitter** — [@codedthemes](https://x.com/codedthemes), [@rakesh_nakrani](https://x.com/rakesh_nakrani) [@dobaria_brijesh](https://x.com/dobaria_brijesh)
+- **Join Discord** – [Connect with the community](https://discord.com/invite/dW9cBZMJ)
 
 ## Useful Resources
 
@@ -168,12 +158,8 @@ Please generate a [Github issue](https://github.com/codedthemes/mantis-free-vuet
 - [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
 - [Affiliate Program](https://codedthemes.com/affiliate/)
 - [Blogs](https://blog.codedthemes.com/)
+- [Vue Bundle](https://codedthemes.com/item/vue-bundle/)
 
-## Community
-
-- 👥Follow [@codedthemes](https://x.com/codedthemes)
-- 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
-- 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
 
 ## Follow Us
 
