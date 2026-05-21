@@ -63,7 +63,7 @@ yarn run start
   - [Live Preview](https://Mantisdashboard.com/vue/free/)
   - [Download](https://github.com/codedthemes/Mantis-free-vue-admin-template)
 - Mantis Pro
-  - [Live Preview](https://Mantisdashboard.com/vue)
+  - [Live Preview](https://Mantisdashboard.com/vue/default)
   - [Download](https://codedthemes.com/item/mantis-vue-admin-template/)
 
 ## Why Mantis?
@@ -79,7 +79,7 @@ Mantis offers everything you need to create dashboards. We have included the fol
 
 ## What's included in Premium Version?
 
-The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+The [Pro version](https://Mantisdashboard.com/vue/default) of Mantis vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
 | [Mantis Free](https://Mantisdashboard.com/vue/free/)                                                         | [Mantis](https://Mantisdashboard.com/vue)                                |
 | ------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 | -                                                                                                            | ✓ 6+ color Options                                                       |
 | -                                                                                                            | ✓ RTL                                                                    |
 | -                                                                                                            | ✓ JWT authentications                                                    |
-| -                                                                                                            | ✓ [More components](https://mantisdashboard.com/vue/advance/alert)       |
+| -                                                                                                            | ✓ [More components](https://mantisdashboard.com/vue/default/advance/alert)       |
 | ✓ [MIT License](https://github.com/codedthemes/mantis-free-vuetify-vuejs-admin-template/blob/master/LICENSE) | ✓ [Pro License](https://codedthemes.com/item/mantis-vue-admin-template/) |
 
 ## Documentation
@@ -106,13 +106,13 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 
 - [Vuetify 4](https://vuetifyjs.com/)
 - [Vite](https://vite.dev/)
-- [Vue3](https://vuejs.org/)
+- [Vue 3](https://vuejs.org/)
 
 ## Mantis Figma UI Kit
 
  | FREE                                                                                                                                                                                                           | PRO                                                                                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="https://codedthemes.com/item/berry-free-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Berry.png" width="450" alt="Figma Free"></a> | <a href="https://codedthemes.com/item/berry-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma-Pro-Berry.png" width="450" alt="Figma Pro"></a> |
+| <a href="https://codedthemes.com/item/mantis-free-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Mantis.png" width="450" alt="Figma Free"></a> | <a href="https://codedthemes.com/item/mantis-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Pro_Mantis.png" width="450" alt="Figma Pro"></a> |
 
 ## Other Technologies
 
@@ -130,7 +130,7 @@ The [Pro version](https://Mantisdashboard.com/vue) of Mantis vue template contai
 
 | Dashboard                                                                                                                                                        | FREE                                             | PRO                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.com/vue/free/) | [**Pro**](https://berrydashboard.com/vue/)</span> |
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Berry%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://berrydashboard.com/vue/free/) | [**Pro**](https://berrydashboard.com/vue/default)</span> |
 |<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Datta%20with%20name.png"  height="30"></p>     | [**Free**](https://codedthemes.com/demos/admin-templates/datta-able/vue/free/)       | [**Pro**](https://codedthemes.com/demos/admin-templates/datta-able/vue/) |
 
 ## Issues
@@ -146,7 +146,7 @@ Please generate a [Github issue](https://github.com/codedthemes/mantis-free-vuet
 
 ## Community and Support
  
-- **GitHub Discussion** - [Ask questions and share ideas](https://github.com/codedthemes/berry-free-react-admin-template/discussions)
+- **GitHub Discussion** - [Ask questions and share ideas](https://github.com/codedthemes/mantis-free-react-admin-template/discussions)
 - **X/Twitter** — [@codedthemes](https://x.com/codedthemes), [@rakesh_nakrani](https://x.com/rakesh_nakrani) [@dobaria_brijesh](https://x.com/dobaria_brijesh)
 - **Join Discord** – [Connect with the community](https://discord.com/invite/dW9cBZMJ)
 
